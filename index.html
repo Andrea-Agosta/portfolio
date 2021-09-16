@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <!-- Google Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Open+Sans&display=swap" rel="stylesheet">
+    <!-- Font Awesome-->
+    <link href="fontawesome-free-5.15.4-web/css/all.css" rel="stylesheet">
+    <!-- style CSS-->
+    <link rel="stylesheet" href="style.css">
+
+    <title>Andrea Agosta Dev</title>
+</head>
+<body>
+    <!-- NAVBAR-->
+    <section>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-auto">
+                        <li class="nav-item theme">
+                            <a class="nav-link active theme" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item theme">
+                            <a class="nav-link theme" href="#about">About</a>
+                        </li>
+                        <li class="nav-item theme">
+                            <a class="nav-link theme" href="#work">My works</a>
+                        </li>
+                        <li class="nav-item theme">
+                            <a class="nav-link theme" href="#contact">Contacts</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </section>
+
+    <!-- PRESENTATION -->
+    <section id="presentation" class="align-middle mb-5 pb-5">
+        <div class="row mt-5 mb-5 pb-5">
+            <div class="col-md-5 text-center text-md-end text-lg-end">
+                <img src="images/photo.jpg" alt="Andrea" class="photo">
+            </div>
+            <div class="col-md-7">
+                <p class="name title text-center text-md-start text-lg-start theme">Andrea Agosta</p>
+                <p class="paragraph text-center text-md-start text-lg-start mb-5">Web Developer</p>
+                <div class="text-center text-md-start text-lg-start mb-5">
+                    <a href="#work" class="btn btn-lg btn-primary me-2 btn-margin"> See my Works <i class="fas fa-angle-right fa-lg ms-2"></i></a>
+                    <br class="break-sm"> or <br class="break-sm">
+                    <a href="#contact" class="btn btn-lg btn-outline-secondary btn-margin ms-2"> <i class="far fa-envelope fa-lg me-2"></i>Get in touch</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT ME-->
+    <section id="about">
+        <hr>
+        <p class="title text-center pt-4 theme"> About me </p>
+        <h4 class="ps-5 pt-3 pe-5 pb-5 mb-5">
+            I'm Andrea Agosta and I'm an enthusiastic and hard-working junior web developer seeking a position as
+            a web developer with Javascript, React, Bootstrap, and Node.js or any other languages where I can enhance
+            my knowledge and grow with the organization.
+        </h4>
+        <hr>
+    </section>
+
+    <!-- MY WORKS-->
+    <section id="work">
+        <p class="name theme title text-center mt-2 mb-5 pt-5" id="myWork">My Works</p>
+        <ul class="list-group">
+            <li class="list-group-item">
+                <div class="row justify-content-center">
+                    <div class=" col-md-3 pb-sm">
+                        <a href="https://github.com/Andrea-Agosta/Spotify_clone" class="theme">
+                            <img src="images/spotify.png" alt="spotify website screen" class="spotify">
+                        </a>
+                    </div>
+                    <div class="col-md-6">
+                        <h3 class="fw-bold">Spotify clone website</h3>
+                        <p>This is a copy of the Spotify US webpage (June 2021).</p>
+                        <h5>Technology used</h5>
+                        <p>In this Project for the frontend side I used Bootstrap 5.0, and for backend side I used Node.js with EJS template system.</p>
+                        <i class="fab fa-github"></i> <a href="https://github.com/Andrea-Agosta/Spotify_clone" class="theme"> Github Repository</a>
+                    </div>
+                </div>
+            </li>
+
+            <li class="list-group-item list-group-item-secondary">
+                <div class="row justify-content-center">
+                    <div class="col-md-3 pb-sm">
+                        <a href="https://github.com/Andrea-Agosta/my-secret-diary" class="theme">
+                            <img src="images/myDiary.png" alt="screen myDiary website" class="spotify">
+                        </a>
+                    </div>
+                    <div class="col-md-6">
+                        <h3 class="fw-bold">Secret Diary project</h3>
+                        <p>
+                            Exercise for The Complete
+                            <a href="https://www.udemy.com/course/the-complete-web-developer-course-2/" class="theme"> Web Developer Course 2.0 </a>
+                            on Udemy for section Database. This website has a login and registration form connected to the database
+                            and in the diary section, all the updates are automatically saved in the database.
+                        </p>
+                        <h5>Technology used</h5>
+                        <p>
+                            In this project for the frontend side I used Bootstrap 5.0, to make the registration form and the
+                            backend side I used php 7. I used mySQL Database for the data storage. After the registration the
+                            user is redirect to a website where they can write something in a textarea. All the updates are
+                            captured by a jQuery listener and with ajax the system send the data to mySQL. This website used the
+                            cookies to save the session information. Once the user clicks on the logout button the cookie is removed.
+                        </p>
+                        <i class="fab fa-github"></i> <a href="https://github.com/Andrea-Agosta/my-secret-diary" class="theme"> Github Repository</a>
+                    </div>
+                </div>
+            </li>
+
+            <li class="list-group-item">
+                <div class="row justify-content-center">
+                    <div class="col-md-3 pb-sm">
+                        <a href="https://github.com/Andrea-Agosta/Contact-Us-form">
+                            <img src="images/contactForm.png" alt="screen contactForm website" class="spotify">
+                        </a>
+                    </div>
+                    <div class="col-md-6">
+                        <h3 class="fw-bold">Contact Us Form</h3>
+                        <p>
+                            This is a webpage <i>"Contact us Form"</i>
+                            where you can contact and email me. This project was an exercise for the Udemy course
+                            <a href="https://www.udemy.com/course/the-complete-web-developer-course-2/" class="theme"> The Complete Web Developer Course 2.0</a>.
+                        </p>
+                        <h5>Technology used</h5>
+                        <p>For this project I used Bootstrap 5.0 and jQuery for the frontend development, and I used PHP to build the backend side.</p>
+                        <i class="fab fa-github"></i> <a href="https://github.com/Andrea-Agosta/Contact-Us-form" class="theme"> Github Repository</a>
+                    </div>
+                </div>
+            </li>
+
+            <li class="list-group-item list-group-item-secondary">
+                <div class="row justify-content-center">
+                    <div class="col-md-3 pb-sm">
+                        <a href="https://github.com/Andrea-Agosta/Disney_website">
+                            <img src="images/disney.png" alt="screen disney website" class="spotify">
+                        </a>
+                    </div>
+                    <div class="col-md-6">
+                        <h3 class="fw-bold">Disney webpage</h3>
+                        <p>
+                            This is my version of the "Disney" webpage. This project was an exercise for the Udemy course
+                            <a href="https://www.udemy.com/course/the-complete-web-developer-course-2/" class="theme">The Complete Web Developer Course 2.0</a>.
+                        </p>
+                        <h5>Technology used</h5>
+                        <p>This was my first attempt with Bootstrap 5.0 and custom CSS.</p>
+                        <i class="fab fa-github"></i> <a href="https://github.com/Andrea-Agosta/Disney_website" class="theme"> Github Repository</a>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Contact-->
+    <section id="contact">
+        <p class="title text-center mt-5 pt-4 theme"> Contacts </p>
+        <div class="row text-center justify-content-center">
+
+            <div class="col-3 hover">
+                <a href="tel:+44 7845 076431" class="phone">
+                    <i class="fas fa-mobile fa-4x contact-ico"></i>
+                    <h4 class="mt-5 sm-display"> <span class="theme"> +44 </span> 7845 076431</h4>
+                </a>
+            </div>
+
+            <div class="col-3 hover">
+                <a href="mailto:andrea.agosta85@gmail.com" class="phone">
+                    <i class="far fa-envelope fa-4x contact-ico"></i>
+                    <h4 class="mt-5 sm-display">andrea.agosta85@gmail.com</h4>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="footer">
+        <div class="row justify-content-center mt-5 p-3">
+            <div class="col-1 text-end me-3">
+                <a href="https://www.linkedin.com/in/andrea-agosta-276ab866/" class="footer-text"><i class="fab fa-linkedin fa-2x"></i></a>
+            </div>
+
+            <div class="col-1 text-start">
+                <a href="https://github.com/Andrea-Agosta" class="footer-text" ><i class="fab fa-github fa-2x"></i></a>
+            </div>
+        </div>
+        <p class="text-center footer-text">&#169; Created by Andrea Agosta</p>
+    </section>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+</body>
+</html>

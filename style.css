@@ -1,0 +1,169 @@
+
+a {
+    text-decoration: none;
+}
+
+hr {
+    border:none;
+    border-top:5px dotted #178fd2;
+    color:#fff;
+    background-color:#fff;
+    height:5px;
+    width:20%;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+.theme {
+    color: #178fd2;
+}
+/*NAVBAR*/
+.nav-link {
+    padding-top: 30px;
+    font-size: 1.5rem;
+    font-family: 'Indie Flower', cursive;
+}
+
+.active {
+    text-decoration: underline;
+}
+
+.nav-item :hover {
+    text-decoration: underline!important;
+    text-decoration-color: #178fd2;
+}
+
+.navbar-light{
+    background-color: white!important;
+}
+.navbar-light, .navbar-nav, .nav-link{
+    color: #178fd2!important;
+}
+
+.navbar-toggler, .navbar-toggler-icon {
+    border-color: #178fd2!important;
+}
+
+/*SECTION PRESENTATION*/
+.photo {
+    height:400px;
+    margin-top: 50px;
+    border-radius: 50%;
+    filter: grayscale(100%);
+}
+
+.title {
+    font-size: 5rem;
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold;
+}
+
+.name {
+    padding: 100px 0 0 50px;
+}
+
+.paragraph {
+    font-size: 3rem;
+    padding-left: 140px;
+}
+
+.btn-primary {
+    background-color: #178fd2;
+    border-color: #178fd2!important;
+}
+
+.btn-primary:hover {
+    background-color: #178fd2;
+    color: black;
+}
+
+.btn-margin {
+    margin-left: 100px;
+}
+
+.break-sm{
+    display: none;
+}
+
+/*SECTION ABOUT*/
+#about {
+    margin-top: 100px;
+    padding: 0 10%;
+    text-align: center;
+}
+
+/*SECTION WORK*/
+.spotify{
+    /*width: 300px;*/
+    width: 100%;
+}
+
+.pb-sm {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+/*SECTION CONTACT*/
+.contact-ico{
+    color: gray;
+}
+
+.phone {
+    color: black;
+}
+
+.hover :hover{
+    color: #178fd2!important;
+}
+
+/*SECTION FOOTER*/
+#footer {
+    background-color: #178fd2;
+}
+
+.footer-text {
+    color: white;
+}
+
+@media (max-width: 575.98px) {
+
+    /*PRESENTATION SECTION*/
+    .photo {
+        height:350px;
+        margin-top: 20px;
+        border-radius: 50%;
+        filter: grayscale(100%);
+    }
+
+    .name {
+        font-size: 3.5rem;
+        padding: 70px 0 0 0;
+        font-family: 'Indie Flower', cursive;
+        font-weight: bold;
+    }
+
+    .paragraph {
+        font-size: 2rem;
+        padding-left: 0px;
+    }
+
+    .btn-margin {
+        margin: 10px 0;
+    }
+
+    .break-sm{
+        display: block;
+    }
+
+    /*WORKS*/
+    .pb-sm {
+        margin-top: auto;
+        margin-bottom: auto;
+        padding: 10px 0;
+    }
+
+    /*CONTACTS*/
+    .sm-display {
+        display: none;
+    }
+}
